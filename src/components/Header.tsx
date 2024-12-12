@@ -26,10 +26,10 @@ const Header = () => {
   const client = useMemo(
     () =>
       new KindeSDK(
-        'https://your_kinde_domain.kinde.com',
-        'your_schema://your_kinde_domain.kinde.com/kinde_callback',
-        'your_kinde_client_id',
-        'your_schema://your_kinde_domain.kinde.com/kinde_callback',
+        'https://5dkey.kinde.com',
+        'KindeSDKRN://5dkey.kinde.com/kinde_callback',
+        '0d8ac4995c794a6eb3250f30613b32ed',
+        'KindeSDKRN://5dkey.kinde.com/kinde_callback',
       ),
     [],
   );
