@@ -27,9 +27,9 @@ const Header = () => {
     () =>
       new KindeSDK(
         'https://5dkey.kinde.com',
-        'KindeSDKRN://5dkey.kinde.com/kinde_callback',
+        'kindesdkrn://5dkey.kinde.com/kinde_callback',
         '0d8ac4995c794a6eb3250f30613b32ed',
-        'KindeSDKRN://5dkey.kinde.com/kinde_callback',
+        'kindesdkrn://5dkey.kinde.com/kinde_callback',
       ),
     [],
   );
